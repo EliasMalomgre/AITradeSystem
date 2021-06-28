@@ -1,0 +1,29 @@
+//position drawer
+.position {
+    padding: 10px 15px 10px 15px;
+    background-color: rgba($color: #9E9E9E, $alpha: 0.20);
+    border-radius: 25px;
+  }
+
+  .v-list-item-group .v-list-item--active{
+    color: white;
+    font-weight: 400;
+    background-color: rgba($color: #2196F3, $alpha: 0.9);
+  }
+
+  //date pickers
+  .v-date-picker-title__date {
+    font-size: 12pt;
+  }
+  .v-date-picker-header__value{
+    font-size: 11pt;
+  }
+  .v-date-picker-table .v-btn{
+    font-size: 9pt;
+  }
+  .v-date-picker-table--date td{
+    width: 10px;
+  }
+
+  @import "~vuetify/src/styles/styles.sass";
+  @import '~vuetify/src/components/VStepper/_variables.scss';

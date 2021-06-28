@@ -1,0 +1,8 @@
+from enum import Enum
+
+
+class SimulationType(Enum):
+    ALL_ACTIONS = "ALL_ACTIONS"
+    ONLY_BUY_AND_SELL = "ONLY_BUY_AND_SELL"
+    ONLY_BUY_AND_SELL_NO_SL = "ONLY_BUY_AND_SELL_NO_SL"
+    ONLY_SHORT_COVER = "ONLY_SHORT_COVER"
